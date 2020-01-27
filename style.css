@@ -151,6 +151,74 @@ footer img {
 		font-size: 12px;
 		text-align: center;
 	}
+
+	main{
+		margin: 0px 20px 0px 20px;
+	}
+
+	h1 {
+		margin: 20px 0;
+	}
+
+	.contact {
+		float: none;
+		margin: 0;
+	}
+
+	.title{
+		display: block;
+		text-align: center;
+	}
+
+	.listings {
+		flex-direction: column !important;
+	}
+
+	.instagram_container {
+		grid-template-rows: repeat(4, 1fr);
+    	grid-template-columns: repeat(2, 1fr);	
+    	grid-gap: 10px;
+    	height: 900px;
+    	margin-bottom: 50px;
+	}
+
+	.left-col {
+		grid-row: 1 / span 2;
+    	grid-column: 1 / span 2;	
+	}
+
+	.topright {
+		grid-row: 3 / span 1;
+    	grid-column: 1 / span 1;
+	}
+
+	.topleft {
+		grid-row: 3 / span 1;
+		grid-column: 2 / span 1;
+	}
+
+	.btmright {
+		grid-row: 4 / span 1;
+		grid-column: 2 / span 1;
+	}
+
+	.btmleft {
+		grid-row: 4 / span 1;
+		grid-column: 1 / span 1;
+	}
+
+
+
+
+
+
+/*@media (max-width: 1024px) {
+	li {
+		display: block;
+		padding: 5px;
+		font-size: 12px;
+		text-align: center;
+	}
 	main{
 		margin: 0px 20px 0px 20px;
 	}
@@ -169,4 +237,4 @@ footer img {
 		flex-direction: column !important;
 	}
 
-}
+}*/
