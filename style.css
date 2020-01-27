@@ -143,7 +143,7 @@ footer img {
 	background-size: cover;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
 	li {
 		display: block;
 		padding: 5px;
@@ -206,7 +206,7 @@ footer img {
 	}	
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
 	li {
 		padding: 5px;
 		font-size: 12px;
