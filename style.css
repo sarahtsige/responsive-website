@@ -1,0 +1,172 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+main{
+	margin: 0px 150px 0px 150px;
+}
+
+h1 {
+	text-align: center;
+	margin: 100px 0;
+	font-weight: normal;
+}
+h3 {
+	font-weight: normal;
+}
+p {
+	color: #999999;
+	font-size: 12px;
+}
+
+hr{
+	margin: 50px 0 50px 0;
+}
+
+ul {
+	list-style-type: none;
+	color: #999999;
+}
+
+li {
+	display: inline;
+	padding: 30px;
+}
+
+nav {
+	text-transform: uppercase;
+}
+
+span {
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+}
+
+footer {
+	border-top: solid 1px #999999;
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+footer img {
+	margin:20px;
+}
+
+.title {
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+}
+
+.listings__moreinfo {
+	color: black;
+	border: solid 1px black;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 12px;
+	border-radius: 7px;
+	margin-top: 25px;
+}
+
+.cover {
+	background-image: url("images/maskgroup.png");
+	background-size: cover;	
+	width: 100%;
+	height: 800px;
+}
+
+.contact {
+	float: right;
+	margin-top: -20px;
+}
+
+.listings {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-bottom: 50px;
+}
+
+.listings__container {
+	margin: 20px;
+}
+
+.listings__img img {
+	background-size: cover;
+	width: 100%;
+	height: 60%;
+}
+
+.instagram_container {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 50px;
+	margin-bottom: 100px;
+	height: 600px;
+}
+
+.left-col {
+	grid-row: 1 / span 2;
+	grid-column: 1 / span 2;
+	background-image: url("images/insta1.png");
+	background-size: cover;
+}
+
+.topright {
+	background-image: url("images/insta2.png");
+	grid-row: 1 / span 1;
+	grid-column: 3 / span 1;
+	//background-size: cover;
+}
+
+.topleft {
+	background-image: url("images/insta3.png");
+	grid-row: 1 / span 1;
+	grid-column: 4 / span 1;
+	background-size: cover;
+}
+
+.btmright {
+	background-image: url("images/insta4.png");
+	grid-row: 2 / span 1;
+	grid-column: 3 / span 1;
+	background-size: cover;
+}
+
+.btmleft {
+	background-image: url("images/T1.png");
+	grid-row: 2 / span 1;
+	grid-column: 4 / span 1;
+	background-size: cover;
+}
+
+
+@media (max-width: 768px) {
+	li {
+		display: block;
+		padding: 5px;
+		font-size: 12px;
+		text-align: center;
+	}
+	main{
+		margin: 0px 20px 0px 20px;
+	}
+	h1 {
+	margin: 20px 0;
+	}
+	.contact {
+		float: none;
+		margin: 0;
+	}
+	.title{
+		display: block;
+		text-align: center;
+	}
+	.listings {
+		flex-direction: column !important;
+	}
+
+}
