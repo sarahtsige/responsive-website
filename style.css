@@ -143,8 +143,7 @@ footer img {
 	background-size: cover;
 }
 
-
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	li {
 		display: block;
 		padding: 5px;
@@ -206,35 +205,27 @@ footer img {
 		grid-row: 4 / span 1;
 		grid-column: 1 / span 1;
 	}
+}
 
-
-
-
-
-
-/*@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	li {
-		display: block;
 		padding: 5px;
 		font-size: 12px;
 		text-align: center;
+
 	}
-	main{
+	
+	main {
 		margin: 0px 20px 0px 20px;
 	}
-	h1 {
-	margin: 20px 0;
-	}
-	.contact {
-		float: none;
-		margin: 0;
-	}
-	.title{
-		display: block;
-		text-align: center;
-	}
-	.listings {
-		flex-direction: column !important;
+
+	.instagram_container {
+		height: 500px;
+		grid-gap: 15px;
 	}
 
-}*/
+	.contact {
+		margin-top: 10px;
+	}
+
+}
